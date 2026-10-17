@@ -1,0 +1,15 @@
+{
+  "name": "Mongol · 蒙古语千词",
+  "short_name": "Mongol",
+  "description": "用拉丁字母学蒙古语，五语对照的千词库",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f4ef",
+  "theme_color": "#f6f4ef",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,6 @@
+﻿node_modules/
+shots/
+data/src/
+*.tmp
+.DS_Storedata/words.ids.json
+tools/stat.cjs

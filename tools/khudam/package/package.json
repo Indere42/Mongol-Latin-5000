@@ -1,0 +1,46 @@
+{
+  "name": "khudam",
+  "version": "0.2.0",
+  "description": "Нээлттэй монгол бичиг хөрвүүлэгч — open-source Cyrillic to traditional Mongolian script (Mongol bichig) converter and lexicon",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigune/khudam.git",
+    "directory": "packages/converter"
+  },
+  "homepage": "https://github.com/bigune/khudam#readme",
+  "bugs": {
+    "url": "https://github.com/bigune/khudam/issues"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "bun run --cwd ../.. build && bun test"
+  },
+  "keywords": [
+    "mongolian",
+    "mongol bichig",
+    "монгол бичиг",
+    "хөрвүүлэгч",
+    "traditional mongolian script",
+    "cyrillic",
+    "converter",
+    "transliteration",
+    "khudam",
+    "худам"
+  ]
+}
